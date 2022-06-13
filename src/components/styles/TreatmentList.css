@@ -1,0 +1,74 @@
+.listaTratamientos{
+    width: 100%;
+    background-color: var(--main-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-clear);
+    padding: 3%;
+    margin: 5% 0;
+}
+
+.listaTratamientos h2{
+    background-color: var(--main-medium);
+    font-size: 3rem;
+    padding: 0 7%;
+}
+
+.listaNavbar{
+    display: flex;
+}
+
+.btn-primary {
+    background-color: var(--main-medium);
+    color: var(--main-clear);
+    border-color: transparent;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    border-color: var(--main-dark);
+    color: var(--main-dark);
+}
+
+.btn-primary:focus{
+    background-color: white;
+    color: var(--main-dark);
+    border-color: white;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--main-medium);
+    border-color: var(--main-dark);
+}
+
+.btn{
+    border-radius: 0;
+    padding: 5%;
+    min-width: 10rem;
+}
+
+.listaInnertext{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.listaInnertext p{
+    width: 60%;
+}
+
+.listaInnertext img{
+    width: 20rem;
+}
+
+.dropdown-menu{
+    background-color: var(--main-clear);
+}
+
+.dropdown-item{
+    color: var(--main-dark);
+}
+

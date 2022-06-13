@@ -1,0 +1,13 @@
+.imageCaroussel{
+    height: 30%;
+}
+
+.carrousel{
+    min-height: 30rem;
+    border: 2px solid green;
+}
+
+#asd{
+    border: 3px solid red;
+    height: 30%;
+}

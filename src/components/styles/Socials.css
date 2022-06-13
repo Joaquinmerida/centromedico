@@ -1,0 +1,45 @@
+.contact{
+    background-color: var(--main-dark);
+    width: 90%;
+    margin: 7% 0;
+    color: var(--main-clear);
+    padding: 3%;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.contact h1{
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.contact h2{
+    font-size: 3rem;
+    margin-top: 3%;
+    font-weight: 600;
+}
+
+.mapa{
+width: 80%;
+height: 20rem;
+border-radius: 1rem;
+}
+
+.Links{
+    font-size: 5rem;
+    width: 100%;
+    margin: 3% 0;
+}
+
+.Links a{
+    color: var(--main-medium);
+    text-shadow: 2px 2px var(--main-clear);
+    margin: 0 3%;
+}
+
+.Links a:hover{
+    color: var(--main-clear);
+}

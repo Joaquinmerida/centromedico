@@ -1,0 +1,43 @@
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+.contact__form {
+    width: 30%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+#label{
+    color: grey;
+}
+
+.contact__form label{
+    font-size: 1.2rem;
+    color: var(--main-dark);
+}
+
+.botones{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#enviar{
+    background-color: var(--main-dark);
+    border-color: var(--main-medium);
+}
+
+.contact__text{
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.contact__text h2{
+    font-weight: 100;
+}

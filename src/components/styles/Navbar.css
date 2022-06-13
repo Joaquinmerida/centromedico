@@ -1,0 +1,118 @@
+.logo{
+    width: 20%;
+    margin: -2%;
+}
+
+.navbarr{
+    display: flex;
+    justify-content: center;
+    background-color: #006577;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.navbarr button {
+    color: #eef6ff;
+    background-color: #006577;
+    margin: 0 2%;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 100;
+    border: none;
+}
+
+.navbarr button:hover{
+    background-color: #81979b93;
+    color: white;
+}
+
+
+.navbarr a{
+    color: #eef6ff;
+    margin: 0 2%;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 100;
+}
+
+.navbarr a:hover{
+    background-color: #81979b93;
+    color: white;
+}
+
+
+.dropdown{
+    display: flex;
+    background-color: var(--main-medium);
+}
+
+.innerDropdown{
+    width: calc(100vw / 6);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.innerDropdown ul{
+    padding: 0;
+    font-size: 1rem;
+    list-style: none;
+}
+.innerDropdown a{
+    color: var(--main-dark);
+    padding: 1%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.innerDropdown a:hover{
+color: var(--main-clear);
+background-color: var(--main-dark);}
+
+.innerDropdown h2{
+    color: var(--main-dark);
+    font-size: 2rem;
+    margin: 5%;
+    text-shadow: 1px 1px white;
+    font-weight: 400;    
+}
+
+.dropdownButton{
+    width: 100%;
+    background-color: var(--main-medium);
+    text-align: center;
+}
+
+.dropdownLink{
+    color: var(--main-dark);
+    font-weight: 500;
+    background-color: var(--main-medium);
+    width: 100%;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.dropdownLink a:hover{
+    color: var(--main-clear);
+    background-color: var(--main-dark);
+    border-radius: 5px;
+
+}
+
+.dropdownButton button{
+    background-color: var(--main-medium);
+    border: none;
+    color: var(--main-clear);
+    margin-bottom: 1%;
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    line-height: 1rem;
+    font-weight: 100;
+    border-radius: 100%;
+
+}
+
+.dropdownButton button:hover{
+    background-color: var(--main-clear);
+    color: var(--main-dark);
+}

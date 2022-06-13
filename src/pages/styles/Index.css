@@ -1,0 +1,25 @@
+:root{
+    --main-clear: #eef6ee;
+    --main-dark: #006577;
+    --main-medium: #91bfcc;
+    --main-violet: #9BA3CC;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eef6ff;
+}
+
+.landing__header{
+font-size: 5rem;
+color: var(--main-dark);
+text-shadow: 2px 3px #9BA3CC;
+}
+
+.landing__promoTitle{
+    font-size: 5rem;
+    color: var(--main-dark);
+    font-weight: 100;
+}

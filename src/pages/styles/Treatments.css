@@ -1,0 +1,42 @@
+.monthlyReco{
+    background-color: #54A2AE;
+    color: var(--main-clear);
+    margin: 3%;
+}
+
+.monthlyTitle{
+    background-color: var(--main-dark);
+    padding: 0.5% 2%;
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.monthlyTitle h2{
+    margin: 0%;
+    font-weight: 400;
+}
+
+.monthlyInner img{
+    width: 30%;
+}
+
+.monthlyInner{
+    padding: 2%;
+    display: flex;
+}
+
+.monthlyInner h2{
+    font-size: 3rem;
+    font-weight: 100;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.monthlyText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    font-size: 0.9rem;
+    justify-content: center;
+}

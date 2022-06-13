@@ -1,0 +1,7 @@
+.StaffTitle{
+    font-size: 5rem;
+    margin: 5%;
+    color: var(--main-dark);
+    font-weight: 700;
+    text-shadow: 5px 4px #9BA3CC;
+}
