@@ -1,4 +1,13 @@
 .logo{
-    width: 20%;
-    margin: -3%;
+    width: 25%;
+    max-height: 25rem;
+    margin: -3;
+}
+
+@media (min-width:374px) and (max-width:1920px){
+
+    .logo{
+        width: 80%;
+        margin: -14%;
+    }
 }

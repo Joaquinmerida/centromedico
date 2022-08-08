@@ -1,22 +1,20 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Logo from '../components/Logo'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import tratamientos from '../components/DB/Db'
-import "./styles/Treatments.css"
-import MonthlyReco from '../components/MonthlyReco'
 import TreatmentList from '../components/TreatmentList'
+import './styles/Treatments.css'
 
 const Treatments = () => {
-  return (
-    <div className="body">
-      <Logo />
-      <Navbar />
-      <MonthlyReco />
-      <TreatmentList />
-      <Footer />
-    </div>
-  )
+    return (
+        <div className="body">
+            <Logo />
+            <Navbar dropdown={false} />
+            <h1 className="titulo">Nuestros tratamientos</h1>
+            <TreatmentList />
+            <Footer />
+        </div>
+    )
 }
 
 export default Treatments

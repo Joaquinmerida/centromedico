@@ -8,7 +8,13 @@
 }
 
 .logo__footer {
-    height: 30rem;
+    height: 20rem;
     width: auto;
-    margin: -3% 0 0 ;
+    padding: 3rem;
+}
+
+.footer p {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
 }

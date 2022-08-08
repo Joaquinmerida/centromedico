@@ -12,12 +12,12 @@ const Index = () => {
     return (
         <div className="body">
             <Logo />
-            <Navbar />
             <h1 className="landing__header">Centro Médico SB</h1>
+            <Navbar dropdown={true} />
             <News />
-            <h2 className="landing__promoTitle">Promoción del mes</h2>
-            <PromoCard promo="Peeling" image="../assets/images/asd.JPG"/>
-            <PromoCard promo="Aparatologia" image="../assets/images/asd.JPG"/>
+            <h2 className="landing__promoTitle">Recomendación del mes</h2>
+            <PromoCard promo="Plissage" image="../assets/images/logoisis.png" />
+            <PromoCard promo="Punta de diamante" image="../assets/images/logoisis.png" />
             <Footer />
         </div>
     )

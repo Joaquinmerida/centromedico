@@ -1,74 +1,80 @@
-.listaTratamientos{
+.treatmentWrapper{
     width: 100%;
-    background-color: var(--main-dark);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--main-clear);
-    padding: 3%;
-    margin: 5% 0;
+    font-size: 2rem;
 }
 
-.listaTratamientos h2{
-    background-color: var(--main-medium);
-    font-size: 3rem;
-    padding: 0 7%;
-}
-
-.listaNavbar{
+.treatmentCard{
+    width: 100%;
+    height: 30rem;
     display: flex;
+    background-color: #91bfcc00;
 }
 
-.btn-primary {
-    background-color: var(--main-medium);
-    color: var(--main-clear);
-    border-color: transparent;
+.title{
+    margin: 2% 0 0 0;
+    font-family: sans-serif;
+    font-size: 7rem;
+    font-weight: 100;
+    text-align: middle;
+    color: #806041;
 }
 
-.btn-primary:hover{
-    background-color: white;
-    border-color: var(--main-dark);
+.treatment__links a{
+    color: white;
+    text-decoration: none;
+    background-color: var(--main-dark);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid rgb(43, 42, 42);
+    box-shadow: 2px 2px 2px rgb(19, 17, 17);
+    border-radius: 10px;
+    max-width: 20rem;
+    min-width: 20rem;
+    height: 3rem;
+    z-index: 2;
+    margin: 2%;
+}
+
+.treatment__links a:hover{
+    background-color: #539eac85;
     color: var(--main-dark);
+
 }
 
-.btn-primary:focus{
-    background-color: white;
-    color: var(--main-dark);
-    border-color: white;
-}
-
-.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: var(--main-medium);
-    border-color: var(--main-dark);
-}
-
-.btn{
-    border-radius: 0;
-    padding: 5%;
-    min-width: 10rem;
-}
-
-.listaInnertext{
+.treatment__links{
     display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+    width: 100%;
+    font-size: 1.5rem;
     justify-content: center;
-    margin: 5%;
 }
 
-.listaInnertext p{
-    width: 60%;
+.treatment__links h2{
+    width: 100%;
 }
 
-.listaInnertext img{
-    width: 20rem;
+.treatmentCard1{
+    width: 100%;
+    height: 40rem;
+    background-color: #91bfcc;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.dropdown-menu{
-    background-color: var(--main-clear);
+.treatment__images{
+    z-index: -1;
 }
 
-.dropdown-item{
-    color: var(--main-dark);
+.treatmentImage{
+height: 100%;
+min-width: 20rem;
+z-index: -1;
 }
 

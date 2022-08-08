@@ -13,7 +13,7 @@ border-bottom: var(--main-dark) 10px solid;
 }
 
 .avatar{
-    height: 15rem;
+    height: 30rem;
     margin-bottom: -2.3%;
     border-bottom-left-radius: 10%;
     align-self: flex-end;

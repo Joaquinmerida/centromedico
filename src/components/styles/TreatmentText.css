@@ -1,0 +1,35 @@
+.treatment__text {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    font-size: 2rem;
+    max-height: 40%;
+    overflow: scroll;
+    line-height: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+    -webkit-animation: fade-in-right 2s 2s backwards;
+    animation: fade-in-right 3s 2s backwards;
+    background: linear-gradient(0deg, rgba(0, 101, 119, 0.548) 5%, rgba(0, 0, 0, 0.644) 50%, rgba(0, 0, 0, 0.568) 50%, rgba(0, 101, 119, 0.603) 96%);
+    padding: 2%;
+    border: 5px solid rgba(128, 128, 128, 0.144);
+}
+
+.treatment__text h1 {
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.treatment__text p{
+    font-size: 1.4rem;
+}
+
+.treatment__text a{
+    color: white;
+    padding: 1%;
+    border-radius: 20px;
+    text-decoration: none;
+}

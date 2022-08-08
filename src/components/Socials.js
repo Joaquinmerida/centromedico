@@ -12,16 +12,16 @@ const Socials = () => {
             </h1>
             <h2>Contactenos</h2>
             <div className="Links"> 
-            <a href="https://www.instagram.com/centromedicosb/?hl=es">
+            <a target="_blank" href="https://www.instagram.com/centromedicosb/?hl=es">
                 <FaInstagram />
             </a>
-            <a href="https://www.facebook.com/CentroMedicoEsteticoSB/">
+            <a target="_blank"  href="https://www.facebook.com/CentroMedicoEsteticoSB/">
                 <FaFacebookF />
             </a>
-            <a href="https://wa.me/59891384068">
+            <a target="_blank"  href="https://wa.me/59891384068">
                 <FaWhatsapp />
             </a>
-            <Link to="/Mail">
+            <Link target="_blank" to="/Mail">
                 <FaMailBulk />
             </Link>
             </div>

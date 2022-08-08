@@ -11,9 +11,9 @@ const Staff = () => {
       <Logo />
       <Navbar />  
       <h1 className="StaffTitle">Nuestro Staff</h1>
-      <StaffCard />
-      <StaffCard />
-      <StaffCard />
+      <StaffCard photo='silvia' />
+      <StaffCard photo='karen' />
+      <StaffCard photo='zaida' />
       <Footer />
     </div>
   )
