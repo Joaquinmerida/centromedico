@@ -4,15 +4,8 @@ import { FiChevronUp } from 'react-icons/fi'
 import "./styles/Navbar.css"
 
 
-const Dropdown = (props) => {
+const DropdownContent = (props) => {
 
-    let drop = props.dropdown
-
-    let handleReset = () =>{
-        console.log(drop)
-    }
-
-    if (props.dropdown === true) {
         return (
             <>
                 <div className="dropdown">
@@ -83,14 +76,11 @@ const Dropdown = (props) => {
                     <Link className="dropdownLink" to="/Tratamientos">Ver tratamientos</Link>
                 </div>
                 <div className="dropdownButton">
-                    <button onClick={handleReset}><FiChevronUp /></button>
+                    <button onClick={props.handleDropdown}><FiChevronUp /></button>
                 </div>
             </>
         )
-    }else{
-        return
-    }
 }
 
 
-export default Dropdown
+export default DropdownContent

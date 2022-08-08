@@ -114,7 +114,7 @@
 }
 
 
-@media (min-width:374px) and (max-width:1200px) {
+@media (min-width:374px) and (max-width:1000px) {
 
     .navbarr {
         padding: 1%;
@@ -122,7 +122,7 @@
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
-        height: 6rem;
+        height: 4rem;
     }
 
     .navbarr button {

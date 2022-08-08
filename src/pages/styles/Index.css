@@ -4,12 +4,18 @@
     --main-medium: #91bfcc;
     --main-violet: #9BA3CC;
 }
+
+#root{
+    width: 100%;
+}
+
 .body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #eef6ff;
+    width: 100%;
 }
 
 .landing__header{
@@ -25,12 +31,17 @@ text-shadow: 2px 3px #9BA3CC;
 }
 
 
-@media (min-width:374px) and (max-width:1920px){
+@media (min-width:374px) and (max-width:1000px){
 
     .landing__header{
-        font-size: 40px;
+        font-size: 45px;
     }
 
+    .landing__promoTitle {
+        font-size: 45px;
+        text-align: center;
+        padding: 2%;
+    }
 
 
 

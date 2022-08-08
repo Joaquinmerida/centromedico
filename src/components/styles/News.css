@@ -14,7 +14,6 @@
     width: 50%;
     margin-top: -10%;
     float: right;
-
 }
 
 .news__wrapper a {
@@ -38,4 +37,27 @@
     font-weight: 200;
     text-align: start;
     color: #806041;
+}
+
+
+@media (min-width:374px) and (max-width:1000px){
+
+    .news__wrapper{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .news__wrapper p {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 3%;
+    }
+    .news__wrapper h2 {
+        font-size: 70px;
+    }
+
+    .news__wrapper img{
+        width: 100%;
+        float: none;
+    }
 }

@@ -18,3 +18,15 @@
     font-size: 0.8rem;
     font-weight: 100;
 }
+
+
+@media (min-width:374px) and (max-width:1000px){
+    .logo__footer{
+        height: 17rem;
+    }
+
+    .footer p{
+        font-size: 15px;
+        margin: 0;
+    }
+}

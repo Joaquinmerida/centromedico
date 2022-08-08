@@ -38,3 +38,33 @@
 .promo__text a:hover{
     background-color: var(--main-dark);
 }
+
+
+@media (min-width:374px) and (max-width:1000px){
+
+    .promo__wrapper{
+        flex-direction: column;
+        padding: 5%;
+        width: 95%;
+    }
+
+    .promo__text{
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .promo__wrapper img{
+        width: 100%;
+        height: auto;
+    }
+    .promo__text a{
+        text-align: center;
+        color: var(--main-dark);
+        border: 2px solid var(--main-dark);
+    }
+
+    .promo__text a:hover{
+        background-color: var(--main-dark);
+        color: var(--main-clear);
+    }
+}
