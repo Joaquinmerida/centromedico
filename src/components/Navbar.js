@@ -1,7 +1,7 @@
 import React from 'react'
 import DropdownContent from './DropdownContent'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import "./styles/Navbar.css"
 
 
@@ -17,7 +17,17 @@ const Navbar = (props) => {
     }
   }
 
-  if (props.dropdown === true) {
+
+  if (window.innerWidth <= 1900) {
+    return (
+      <div className="navbarr">
+        <Link to="/" id="inicio">Inicio</Link>
+        <Link to="/Tratamientos">Tratamientos</Link>
+        <Link to="/Equipo">Nuestro equipo</Link>
+        <Link to="/Contacto" id="equipo">Agendá tu consulta</Link>
+      </div>
+    )
+  } else if (props.dropdown === true) {
     if (Dropdown === false) {
       return (
         <>

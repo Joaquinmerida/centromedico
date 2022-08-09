@@ -78,3 +78,19 @@ min-width: 20rem;
 z-index: -1;
 }
 
+@media (min-width:374px) and (max-width:1000px){
+    .treatmentImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .treatmentCard{
+        height: 40rem;
+        flex-direction: column;
+    }
+
+    .treatmentCard1{
+        height: 40rem;
+        flex-direction: column;
+    }
+}
