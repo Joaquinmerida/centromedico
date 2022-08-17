@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import './styles/PromoCard.css'
 import { Link } from 'react-router-dom'
-import Plissage from '../assets/images/Plissage.jpg'
-import Aparato from '../assets/images/Puntadiamante.jpg'
+import Plissage from '../assets/images/Plissage.webp'
+import Aparato from '../assets/images/Puntadiamante.webp'
 import { useState } from 'react'
 
 

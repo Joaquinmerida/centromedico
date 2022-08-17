@@ -5,3 +5,10 @@
     font-weight: 700;
     text-shadow: 5px 4px #9BA3CC;
 }
+
+@media (min-width:374px) and (max-width:1000px){
+    .StaffTitle{
+        font-size: 80px;
+        text-align: center;
+    }
+}

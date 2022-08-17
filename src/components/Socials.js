@@ -8,9 +8,9 @@ const Socials = () => {
     return (
         <div className="contact">
             <h1>
-                Recomendamos realizar una consulta diagnostica
+                Recomendamos realizar una consulta diagnóstica
             </h1>
-            <h2>Contactenos</h2>
+            <h2>Contáctenos</h2>
             <div className="Links"> 
             <a target="_blank" href="https://www.instagram.com/centromedicosb/?hl=es">
                 <FaInstagram />

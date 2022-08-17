@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles/News.css"
 import { Link } from 'react-router-dom'
-import imagenStaff from '../assets/images/staff.png'
+import imagenStaff from '../assets/images/staff.webp'
 
 
 

@@ -36,6 +36,7 @@
 }
 
 .promo__text a:hover{
+    color: var(--main-clear);
     background-color: var(--main-dark);
 }
 

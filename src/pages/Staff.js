@@ -9,7 +9,7 @@ const Staff = () => {
   return (
     <div className="body">
       <Logo />
-      <Navbar />  
+      <Navbar dropdown={true} />
       <h1 className="StaffTitle">Nuestro Staff</h1>
       <StaffCard photo='silvia' />
       <StaffCard photo='karen' />

@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="body">
       <Logo />
-      <Navbar />
+      <Navbar dropdown={true} />
       <Socials />
       <Footer />
     </div>

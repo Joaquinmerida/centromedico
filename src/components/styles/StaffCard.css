@@ -36,3 +36,33 @@ border-bottom: var(--main-dark) 10px solid;
     color: var(--main-dark);
     text-shadow: 2px 3px #9BA3CC;
 }
+
+@media (min-width:374px) and (max-width:1000px){
+    .staffCard{
+        flex-direction: column;
+        margin: 0;
+        min-width: 96%;
+        border-radius: 100px;
+        margin-bottom: 5%;
+    }
+
+    .staffText h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .staffText{
+        font-size: 25px;
+        width: 90%;
+    }
+    .avatar{
+        height: auto;
+        width: 100%;
+    }
+
+    .logoo{
+        height: 15rem;
+        align-self: center;
+        margin: -10%;
+    }
+}

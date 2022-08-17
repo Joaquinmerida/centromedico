@@ -21,20 +21,21 @@
     font-weight: 100;
     text-align: middle;
     color: #806041;
+    text-shadow: rgba(0, 0, 0, 0.297) 1px 2px 2px;
 }
 
 .treatment__links a{
     color: white;
     text-decoration: none;
     background-color: var(--main-dark);
-    padding: 0.5rem;
+    padding: 0.3rem;
     font-size: 1.5rem;
     border: 1px solid rgb(43, 42, 42);
     box-shadow: 2px 2px 2px rgb(19, 17, 17);
+    min-width: 30%;
+    max-width: 50%;
+    height: fit-content;
     border-radius: 10px;
-    max-width: 20rem;
-    min-width: 20rem;
-    height: 3rem;
     z-index: 2;
     margin: 2%;
 }
@@ -50,7 +51,6 @@
     text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: scroll;
     width: 100%;
     font-size: 1.5rem;
     justify-content: center;
@@ -79,19 +79,42 @@ z-index: -1;
 }
 
 @media (min-width:374px) and (max-width:1000px){
+    .title{
+        font-size: 80px;
+        margin-bottom: 5%;
+    }
+    .titulo{
+        text-align: center;
+    }
     .treatmentImage{
         width: 100%;
         height: auto;
+        min-width: 100%;
     }
 
     .treatmentCard{
-        height: 40rem;
+        min-height: 20rem;
+        height: auto;
+        max-height: 100rem;
         flex-direction: column;
+        padding-bottom: 5%;
     }
 
     .treatmentCard1{
-        height: 40rem;
+        max-height: 100rem;
+        min-height: auto;
+        height: auto;
         flex-direction: column;
+        padding-bottom: 5%;
+    }
+
+    .treatment__links{
+
+    }
+    .treatment__links a{
+        min-width: 45%;
+        max-width: 100%;
+        font-size: 20px;
     }
 
     .treatment__links {

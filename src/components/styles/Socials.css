@@ -20,6 +20,7 @@
     font-size: 3rem;
     margin-top: 3%;
     font-weight: 600;
+    text-shadow: black 2px 2px 4px;
 }
 
 .mapa{
@@ -42,4 +43,22 @@ border-radius: 1rem;
 
 .Links a:hover{
     color: var(--main-clear);
+}
+
+@media (min-width:374px) and (max-width:1000px){
+    .contact{
+        width: 100%;
+        border-radius: 0;
+        margin: 4%;
+    }
+
+    .contact h1{
+        font-size: 30px;
+    }
+    .contact h2{
+        font-size: 50px;
+    }
+    .Links {
+        font-size: 3rem;
+    }
 }

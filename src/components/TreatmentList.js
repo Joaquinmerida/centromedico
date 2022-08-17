@@ -1,12 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/TreatmentList.css'
-import { tratamientos } from './DB/Db'
-import cabeza from '../assets/images/cabeza.png'
-import cara from '../assets/images/cara.png'
-import cuello from '../assets/images/cuello.png'
-import abdomen from '../assets/images/abdomen.png'
-import gluteos from '../assets/images/gluteos.png'
-import piernas from '../assets/images/piernas.png'
+import cabeza from '../assets/images/cabeza.webp'
+import cara from '../assets/images/cara.webp'
+import cuello from '../assets/images/cuello.webp'
+import abdomen from '../assets/images/abdomen.webp'
+import gluteos from '../assets/images/gluteos.webp'
+import piernas from '../assets/images/piernas.webp'
 import { Link } from 'react-router-dom'
 
 

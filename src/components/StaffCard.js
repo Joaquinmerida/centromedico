@@ -11,16 +11,20 @@ import logoo from '../assets/images/logoisis.png'
 const StaffCard = (props) => {
 
     let [photo, setPhoto] = useState('')
+    let [description, setDescription] = useState('')
 
     useEffect(() => {
         if (props.photo === 'silvia') {
             setPhoto(silvia)
+            setDescription("descripcion silvia")
         }
         if (props.photo === 'karen') {
             setPhoto(karen)
+            setDescription("Masoterapeuta e instructora, certificada en: Masaje Neuromuscular tratamiento de la columna vertebral y la caja torácica. Tratamiento de la columna cervical y el cráneo. Tratamiento del complejo del hombro y extremidad superior. Tratamiento del complejo lumbo-pélvico y extremidad inferior. Posturología: evaluación dinámica y estructural.  Masaje terapéutico y talasoterapia. Functional Training System - Entrenadora personal y clases grupales. Quiropraxia china. Instructora de Ejercicios Hipopresivos Estáticos. Instructora de talleres de masajes.")
         }
         if (props.photo === 'zaida') {
             setPhoto(zaida)
+            setDescription("descripcion zaida")
         }
     }, [photo])
 
@@ -30,7 +34,7 @@ const StaffCard = (props) => {
             <img className="avatar" alt={props.photo} src={photo} />
             <div className="staffText">
                 <h2>Nombre Staff</h2>
-                <p>'What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p>{description}</p>
             </div>
             <img className="logoo" alt="logo" src={logoo} />
         </div>
