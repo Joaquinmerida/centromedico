@@ -2,8 +2,8 @@ export const tratamientos = [
     {
         Id: 'Alopecia',
         Nombre: 'Caída de cabello',
-        Tratamientos: ['Mesoterapia', 'Plasma', 'Carboxiterapia', 'Homeopatia'],
-        Descripcion: 'La alopecia es la pérdida anormal del cabello, por lo que el término se considera un sinónimo de calvicie. Puede afectar al cuero cabelludo o a otras zonas de la piel en la que existe pelo, como las pestañas, axilas, región genital y barba.',
+        Tratamientos: ['Mesoterapia - Plasma - Carboxiterapia - Homeopatia'],
+        Descripcion: 'La alopecia es la pérdida anormal del cabello. El tratamiento se realiza en el cuero cabelludo y barba.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '../assets/videos/1.mp4',
@@ -12,7 +12,7 @@ export const tratamientos = [
     {
         Id: 'Adiposidad',
         Nombre: 'Adiposidad Localizada',
-        Tratamientos: ['Velashape', 'Ultracavitacion', 'Lipolaser', 'Hidrolipoclasia', 'Mela'],
+        Tratamientos: ['Velashape - Ultracavitacion - Lipolaser - Hidrolipoclasia -  Mela -  Lipolisis Quimica'],
         Descripcion: 'La adiposidad localizada es la ubicación del tejido graso en determinadas zonas del cuerpo que provocan una alteración estética del contorno corporal. Esto puede ir acompañado o no de sobrepeso. Es el tejido adiposo, que persiste aunque realices ejercicio',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
@@ -21,7 +21,7 @@ export const tratamientos = [
     }, {
         Id: 'Acne',
         Nombre: 'Acné',
-        Tratamientos: ['Peeling', 'Dermapen', 'Plasma', 'Laser', 'Ozonoterapia'],
+        Tratamientos: ['Peeling - Dermapen - Plasma - Laser - Ozonoterapia'],
         Descripcion: 'El acné es un trastorno de la piel que ocurre cuando los folículos pilosos se tapan con grasa y células cutáneas muertas. Causa puntos blancos, puntos negros o granos. El acné es más común entre los adolescentes, aunque afecta a personas de todas las edades.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
@@ -41,8 +41,8 @@ export const tratamientos = [
     {
         Id: 'Arrugas',
         Nombre: 'Arrugas',
-        Tratamientos: ['Botox', 'Peeling', 'Radiofrecuencia', 'Dermapen', 'Ozonoterapia'],
-        Descripcion: 'Las arrugas son uno de los primeros signos del envejecimiento. Las mismas pueden verse en reposo o al gesticular. Las podes tener desde antes de los 30 años, por tu tipo de gesticulación, en fumadores tanto en hombres como mujeres y no existe edad para tratarlas, contamos con diferentes tratamientos para las mismas.',
+        Tratamientos: ['Botox - Peeling - Radiofrecuencia - Dermapen - Ozonoterapia'],
+        Descripcion: 'Las arrugas son uno de los primeros signos del envejecimiento. Las mismas pueden verse en reposo o al gesticular. Las podes tener desde antes de los 30 años. En fumadores tanto en hombres como mujeres y no existe edad para tratarlas, contamos con diferentes tratamientos.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -51,7 +51,7 @@ export const tratamientos = [
     {
         Id: 'Manchas',
         Nombre: 'Manchas',
-        Tratamientos: ['Peeling', 'Esclerosis', 'Luz Pulsada'],
+        Tratamientos: ['Peeling - Esclerosis - Luz Pulsada'],
         Descripcion: 'La decoloración irregular o las manchas en la piel pueden ser causadas por: Cambios en la melanina, una sustancia producida en las células de la piel que le dan su color. Proliferación de bacterias u otros microorganismos en la piel. Cambios en los vasos sanguíneos (vasculares)',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
@@ -61,7 +61,7 @@ export const tratamientos = [
     {
         Id: 'Rosacea',
         Nombre: 'Rosácea',
-        Tratamientos: ['Peeling', 'Esclerosis', 'Luz Pulsada'],
+        Tratamientos: ['Peeling - Esclerosis - Luz Pulsada'],
         Descripcion: 'La rosácea es una afección de la piel que afecta su apariencia y puede generar diversas molestias. Para atenderla y disminuir su impacto, primero hay que identificar las causas de la rosácea. Conoce más acerca de este padecimiento así como las consecuencias que puede tener en la dermis.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
@@ -71,7 +71,7 @@ export const tratamientos = [
     {
         Id: 'Vasculares',
         Nombre: 'Vasculares',
-        Tratamientos: ['Peeling', 'Esclerosis', 'Luz Pulsada'],
+        Tratamientos: ['Peeling - Esclerosis - Luz Pulsada'],
         Descripcion: 'asdasdss',
         Precio: 200,
         Imagen: '',
@@ -80,7 +80,7 @@ export const tratamientos = [
     }, {
         Id: 'Cicatrices',
         Nombre: 'Cicatrices',
-        Tratamientos: ['Peeling', 'Carboxiterapia', 'Ozonoterapia'],
+        Tratamientos: ['Peeling - Carboxiterapia - Ozonoterapia'],
         Descripcion: 'Las cicatrices se producen como parte de la respuesta fisiológica normal del organismo a una alteración de la integridad de cualquiera de los tejidos que lo componen. De forma general, pueden clasificarse en normotróficas, atróficas, hipertróficas y queloides.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
@@ -89,7 +89,7 @@ export const tratamientos = [
     }, {
         Id: 'Flacidez',
         Nombre: 'Flacidez',
-        Tratamientos: ['Peeling', 'Luz Pulsada', 'HIFU', 'Hilos Tensores', 'Ozonoterapia'],
+        Tratamientos: ['Peeling - Luz Pulsada - HIFU - Hilos Tensores - Ozonoterapia'],
         Descripcion: 'La flacidez corporal es la pérdida de tono y de firmeza de la piel y el tejido muscular. Esta pérdida está causada por la disminución de la elastina, encargada de proporcionar elasticidad a la piel, y el colágeno, encargado de aportar resistencia a la misma.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
@@ -98,8 +98,8 @@ export const tratamientos = [
     }, {
         Id: 'Asimetrias',
         Nombre: 'Asimetrías',
-        Tratamientos: ['Botox', 'Acido', 'Hialurónico'],
-        Descripcion: 'La asimetría facial es una alteración que se define por la presencia de una disarmonía entre ambos lados de la cara. Esto es, en el plano vertical frontal de la cara, uno de los dos lados se muestra descompensado respecto el otro.',
+        Tratamientos: ['Botox - Acido Hialurónico'],
+        Descripcion: 'La asimetría facial es una diferencia de una mitad de la cara respecto a la otra. Por ejemplo: un pómulo mas prominente que el otro, la sonrisa asimetrica, o secuelas producto de una paralisis facial entre otros',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -107,8 +107,8 @@ export const tratamientos = [
     }, {
         Id: 'VolumenLabios',
         Nombre: 'Volúmen de Labios',
-        Tratamientos: ['Acido Hialuronico'],
-        Descripcion: 'A medida que se pierde colágeno en la fina piel alrededor de la boca, minúsculas líneas verticales empiezan a plasmarse en el rostro y en los labios. Estas arrugas pueden retardarse, evitarse y revertirse con tratamientos y técnicas mínimamente invasivas. Gracias a las nuevas tecnologías de la medicina estética se pueden tener labios más hidratados, lisos y atractivos.',
+        Tratamientos: ['Acido Hialuronico - Dermapen - Plasma rico en plaquetas - Peeling - Bioestimulacion'],
+        Descripcion: 'Con el paso del tiempo tus labios comienzan a afinarse y a su alrededor aparecen arrugas peribucales. Contamos con diferentes tipos de tratamientos.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -116,8 +116,8 @@ export const tratamientos = [
     }, {
         Id: 'VolumenPomulos',
         Nombre: 'Volúmen de Pómulos',
-        Tratamientos: ['Acido Hialuronico'],
-        Descripcion: 'La pérdida de volumen que aparece con el paso de los años, provoca la pérdida de la apariencia juvenil. Como consecuencia podremos apreciar el área de la mejilla caída y sin volumen, contribuyendo a un rostro más envejecido, sobre todo en aquellas personas de constitución naturalmente delgada o que pierde peso de manera repentina.',
+        Tratamientos: ['Acido Hialuronico - Bioestimulación - Hilos'],
+        Descripcion: 'La pérdida de volumen se debe a la reabsorcion osea que sucede con los años.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -125,8 +125,8 @@ export const tratamientos = [
     }, {
         Id: 'Maxilar',
         Nombre: 'Definición de Maxilar',
-        Tratamientos: ['Acido', 'Hialuronico', 'Hilos'],
-        Descripcion: 'Una mandíbula definida y angulosa son rasgos que identificamos con un rostro atractivo tanto en hombres como en mujeres; esto es porque la mandíbula cumple una función estética muy importante:  romper la continuidad entre el cuello y el rostro, y dar fuerza y definición las facciones. Por el contrario, la falta de definición en los ángulos mandibulares, o goniales, da un aspecto envejecido y resta carácter al rostro.',
+        Tratamientos: ['Acido Hialuronico - Hidroxiapatita - Hilos'],
+        Descripcion: 'La mandíbula definida y angulosa son rasgos que identificamos con un rostro atractivo tanto en hombres como en mujeres. Esto es porque la mandíbula cumple una función estética muy importante:  romper la continuidad entre el cuello y el rostro, y dar fuerza y definición las facciones.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -135,7 +135,7 @@ export const tratamientos = [
         Id: 'Menton',
         Nombre: 'Mentón',
         Tratamientos: ['Acido Hialuronico'],
-        Descripcion: 'El ácido hialurónico se emplea para dar volumen al mentón de una manera natural y atractiva, ayudando a recuperar su estética facial. El relleno de mentón es la mejor opción para elevar y eliminar el mentón retraído, ofreciendo un aspecto equilibrado y natural a la cara.',
+        Descripcion: 'El ácido hialurónico se emplea para dar volumen al mentón de una manera natural y atractiva, ayudando a recuperar su estética facial. El relleno de mentón es una muy buena opción para proyectar y eliminar el mentón retraído, ofreciendo un aspecto equilibrado y natural a una cara armónica.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -143,8 +143,8 @@ export const tratamientos = [
     }, {
         Id: 'Papada',
         Nombre: 'Papada',
-        Tratamientos: ['Liposis Quimica', 'Hifu'],
-        Descripcion: 'La papada hace referencia a una acumulación excesiva de grasa en la parte inferior del mentón que se extiende hacia el cuello. Esto provoca que se borre el ángulo cervicofacial y tenga ese efecto visual que tan poco favorecedor. Su aparición puede darse tanto en mujeres como en hombres y, aunque la mayoría de personas lo asocian con exceso de peso, su causa no siempre es esa. ',
+        Tratamientos: ['Lipolisis Quimica - Laser - Hilos'],
+        Descripcion: 'La papada hace referencia a una acumulación excesiva de grasa en la parte inferior del mentón que se extiende hacia el cuello. Esto provoca que se borre el ángulo cervicofacial y tenga ese efecto visual que tanto nos molesta. Su aparición puede darse en mujeres como en hombres.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -152,16 +152,8 @@ export const tratamientos = [
     }, {
         Id: 'Diastasis',
         Nombre: 'Diastasis',
-        Tratamientos: ['Emsculp'],
-        Descripcion: 'La diástasis se produce cuando los músculos rectos del abdomen se separan. Aunque lo habitual es que sea consecuencia del embarazo, cualquier persona puede tenerla. Aumento del volumen del abdomen, hernias umbilicales, problemas digestivos o incontinencia, son algunos riesgos. A continuación, las claves para prevenir y solucionar esta lesión',
-        Precio: 200,
-        Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
-        Video: '',
-        Categoria: 'Estetica',
-    }, {
-        Id: 'Pubalgia',
-        Nombre: 'Pubalgia',
-        Descripcion: 'La pubalgia, también conocida como la hernia del deportista, es una lesión común entre deportistas que realizan actividades de forma diaria. Esta patología se manifiesta con dolores en el pubis, con afectaciones a diferentes zonas musculares de la ingle. De forma común también se le llama dolor de ingle.',
+        Tratamientos: ['Emsculp - Ejercicios hipopresivos'],
+        Descripcion: 'La diástasis se produce cuando los músculos rectos del abdomen se separan. Es frecuente que sea consecuencia del embarazo.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -169,8 +161,8 @@ export const tratamientos = [
     }, {
         Id: 'OmbligoTriste',
         Nombre: 'Ombligo Triste',
-        Tratamientos: ['Hilos Tensores', 'Mesoterapia'],
-        Descripcion: 'LGeneralmente, después de una cirugía plástica como la liposucción, lipoescultura o lipectomía, el ombligo cambia de aspecto y aparece lo que algunos llaman el ombligo triste. Esto se debe a que el cuerpo se inflama y debe sanar.',
+        Tratamientos: ['Hilos Tensores - Bioestimulacion - Mesoterapia'],
+        Descripcion: 'Con el pasar de los años, se altera la forma del ombligo por la flacidez.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -178,8 +170,8 @@ export const tratamientos = [
     }, {
         Id: 'Varices',
         Nombre: 'Várices',
-        Tratamientos: ['Escleroterapia', 'Ozonoterapia'],
-        Descripcion: 'Las várices son venas hinchadas y retorcidas que pueden verse bajo la piel y suelen aparecer en las piernas. Este tema de salud se centra en las várices de las piernas, pero a veces se forman várices en otras partes del cuerpo.',
+        Tratamientos: ['Escleroterapia - Ozonoterapia - Presoterapia - Masoterapia'],
+        Descripcion: 'Son dilataciones venosas visibles, de diferentes grados. Recordá que durante el tratamiento, se recomienda no exponerse al sol.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -187,8 +179,8 @@ export const tratamientos = [
     }, {
         Id: 'Celulitis',
         Nombre: 'Celulitis',
-        Tratamientos: ['Carboxiterapia', 'Mesoterapia', 'Ozonoterapia', 'Ultracavitacion', 'Presoterapia', 'Plasma', 'Masajes'],
-        Descripcion: 'La celulitis es un trastorno con un fuerte componente hormonal que consiste en una alteración en el metabolismo de los adipocitos (células grasas) y una fibrosis del tejido y más concretamente en los glúteos que presentan unos hoyuelos propios del aumento de la presión interna que sufre el tejido.',
+        Tratamientos: ['Carboxiterapia - Mesoterapia - Ozonoterapia - Ultracavitacion - Presoterapia - Plasma - Masajes'],
+        Descripcion: '',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -196,8 +188,8 @@ export const tratamientos = [
     }, {
         Id: 'RetencionLiquidos',
         Nombre: 'Retencion de Líquidos',
-        Tratamientos: ['Presoterapia', 'Masajes', 'Mesoterapia'],
-        Descripcion: 'El edema, conocido popularmente como retención de líquidos, es un aumento en el volumen del líquido intersticial, es decir, una acumulación excesiva de líquidos en los tejidos. Sus causas son variadas, entre ellas, problemas circulatorios, insuficiencia cardiaca congestiva, enfermedades renales o hepáticas.',
+        Tratamientos: ['Presoterapia - Mesoterapia - Ozonoterapia'],
+        Descripcion: 'El edema o retención de líquidos, es una acumulación excesiva de líquidos en los tejidos. Sus causas son variadas, entre ellas, problemas circulatorios, insuficiencia cardiaca congestiva, enfermedades renales o hepáticas.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -205,7 +197,8 @@ export const tratamientos = [
     }, {
         Id: 'Volumen',
         Nombre: 'Volúmen de Glúteos',
-        Descripcion: 'Con el paso de los años es habitual que los glúteos vayan perdiendo firmeza y elasticidad. La aparición de la celulitis y la flacidez hacen que el aspecto estético de esta zona corporal se modifique por completo. Rejuvenecer los tejidos y aumentar el volumen de esta área del cuerpo es posible sin necesidad de recurrir a la magia de la cirugía estética. El aumento de glúteos con ácido hialurónico es una técnica muy común entre aquellas mujeres que deseen mejorar el aspecto de sus glúteos de manera natural.',
+        Tratamientos: ['Lifting quimico - Acido hialuronico - Hilos - Bioestimulacion'],
+        Descripcion: 'Con el paso de los años es habitual que los glúteos vayan perdiendo firmeza y elasticidad. La aparición de la celulitis y la flacidez hacen que el aspecto estético de esta zona corporal se modifique por completo. Rejuvenecer los tejidos y aumentar el volumen de esta área del cuerpo es posible sin necesidad de cirugía.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
@@ -213,13 +206,11 @@ export const tratamientos = [
     }, {
         Id: 'Tonificación',
         Nombre: 'Tonificacion',
-        Descripcion: 'La flacidez se produce por la falta de elasticidad en la piel, producto de que nuestro cuerpo no se regenera adecuadamente, además de una falta de tonicidad muscular por falta de ejercicio físico y/o herencia genética.',
+        Tratamientos: ['Emsculp - Electrodos - Lifting quimico - Masajes neuromoduladores'],
+        Descripcion: 'Para lograr la tonificación deseada, contamos con lo último en aparotología y tratamientos medicos no invasivos.',
         Precio: 200,
         Imagen: 'https://media.wired.com/photos/5b899992404e112d2df1e94e/master/pass/trash2-01.jpg',
         Video: '',
         Categoria: 'Estetica',
-    },
-
-
-
+    }
 ]

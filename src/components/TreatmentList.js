@@ -61,7 +61,6 @@ const TreatmentList = () => {
                 <div className="treatment__links">
                     <h2 className="title">Abdomen</h2>
                     <Link to='/Diastasis'>Diastasis de rectos</Link>
-                    <Link to='/Pubalgia'>Pubalgia</Link>
                     <Link to='/Adiposidad'>Adiposidad localizada</Link>
                     <Link to='/Flacidez'>Flacidez</Link>
                     <Link to='/Cicatrices'>Cicatrices (cesárea/estrías)</Link>

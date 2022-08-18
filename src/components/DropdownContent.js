@@ -44,7 +44,6 @@ const DropdownContent = (props) => {
                         <h2>Abdomen</h2>
                         <ul>
                             <li><Link to='/Diastasis'>Diastasis de rectos</Link></li>
-                            <li><Link to='/Pubalgia'>Pubalgia</Link></li>
                             <li><Link to='/Adiposidad'>Adiposidad localizada</Link></li>
                             <li><Link to='/Flacidez'>Flacidez</Link></li>
                             <li><Link to='/Cicatrices'>Cicatrices (cesárea/estrías)</Link></li>

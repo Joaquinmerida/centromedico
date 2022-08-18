@@ -49,6 +49,7 @@ border-bottom: var(--main-dark) 10px solid;
     .staffText h2{
         font-size: 3rem;
         text-align: center;
+        margin: 10% 0;
     }
 
     .staffText{
